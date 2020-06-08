@@ -2,37 +2,79 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #ff671f !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body .bg-dark {
+  background-color: #007a53 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn-primary {
+  background-color: #007a53;
+  border-color: #007a53;
+}
+
+.btn-primary:hover {
+  background-color: #007a53;
+  border-color: #007a53;
+  transform: scale(1.05);
+}
+
+.Navigation {
+  margin-bottom: 5rem;
+}
+
+.jumbotron {
+  background-image: url("/images/feed.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 100px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.jumbotron p,
+h1 {
+  background-color: #ffffff75;
+  color: black;
+  padding: 50px;
+  margin: 0px 0px 16px 0px;
+}
+
+.jumbotron p {
+  font-size: 1.3rem;
+}
+
+.carousel-caption p,
+h3 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.carousel-caption h3 {
+  font-size: 3rem;
+}
+.carousel-caption p {
+  background-color: #ffffff75;
+  font-size: 1.2rem;
+  margin: 1rem 0rem 1.5rem 0rem;
+  padding: 1.2rem;
+}
+
+.modal-header {
+  background: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel-item img {
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carousel {
+  margin-bottom: 5rem;
 }
