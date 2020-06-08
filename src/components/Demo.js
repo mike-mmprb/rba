@@ -52,7 +52,7 @@ function Demo() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/images/Libby1280x720.jpg"
+              src="/images/libby1280x720.jpg"
               alt="Libby"
             />
 
