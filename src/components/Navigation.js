@@ -15,12 +15,12 @@ function Navigation() {
         variant="dark"
         className="Nav-bar"
       >
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">Logo</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#features">Products</Nav.Link>
+            <Nav.Link href="#pricing">Services</Nav.Link>
             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -34,9 +34,9 @@ function Navigation() {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
+            <Nav.Link href="#deets">More</Nav.Link>
             <Nav.Link eventKey={2} href="#memes" onClick={handleShow}>
-              Login
+              Modal
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
